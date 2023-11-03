@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewAyat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nomor Ayat: 1"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textViewSurah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Surah"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arti: Terjemahan Ayat Al-Qur'an"
+        android:textSize="14sp" />
+
+</LinearLayout>

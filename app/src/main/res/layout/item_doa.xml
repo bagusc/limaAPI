@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewdoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doa"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewAyat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artinya" />
+
+    <TextView
+        android:id="@+id/textViewLatin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artinya" />
+
+    <TextView
+        android:id="@+id/textViewArtinya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artinya" />
+</LinearLayout>
